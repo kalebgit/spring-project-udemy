@@ -10,7 +10,7 @@ public class GameRunner {
 	@Autowired 
 	private GameConsole game;
 	
-	public GameRunner(@Qualifier("SuperContraGame")GameConsole game) {
+	public GameRunner(@Qualifier("SuperContraGameQualifier")GameConsole game) {
 		this.game = game;
 	}
 	
