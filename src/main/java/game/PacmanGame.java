@@ -2,7 +2,7 @@ package game;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("PacmanGame")
 public class PacmanGame implements GameConsole{
 
 	@Override
